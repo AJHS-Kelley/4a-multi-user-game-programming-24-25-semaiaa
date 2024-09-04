@@ -115,3 +115,15 @@ class FlowControlStructures {
     }
 
     }
+
+    playerLives = 3 
+    int points; 
+    if (points < 10000)
+     {
+     Console.ReadLine(playerLives - 1);
+    }
+    if (points >= 10001 && points < 100000)
+    Console.ReadLine(playerLives ++ 1);
+
+     if (points > 100000)
+     Console.ReadLine(playerLives ++ 2);
