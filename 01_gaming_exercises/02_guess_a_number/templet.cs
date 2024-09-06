@@ -1,5 +1,5 @@
 using System;
-class GuessNumber {
+class GuessNumber {}
   static void Main() {
   int numGuess = 0; 
   int maxGuess = 8; 
@@ -13,12 +13,35 @@ class GuessNumber {
 
   while (numGuess < maxGuess)
   {
+    // Console.WriteLine("Secret Number: " + secretNumber)
     Console.WriteLine("Please guess and integer between X and Y,\n");
     guess = Convert.ToInt32(Console.ReadLine());  
-    Console.WriteLine(guess); 
+    Console.WriteLine("Guess" + guess); 
+    
     numGuess++; 
-  }
-      // Allow the user to guess the munber. 
+    if (guess < secretNumber)
+    {
+      Console.WriteLine("Your guess is too low. \n"); 
+    }
+    else if (guess > secretNumber) 
+    { 
+      Console.WriteLine("Your guess is too high. \n");
+    }
+    else
+    {
+      Console.WriteLine("Your guessed correctly. \n");
+      break; // Keyword to immediately exit a loop. 
+    }
+      
+    if (numGuess >= maxGuess)
+    {
+      Consonle.WriteLine("You have lost the game, \nYour grandparents are disappointed in you.\n");
+    }
+
+
+
+  
+     // Allow the user to guess the number. 
      // Compare the guess to the secret number.
      // If match, print win, if > or <, give a hint. 
      // +1 to numGuess
