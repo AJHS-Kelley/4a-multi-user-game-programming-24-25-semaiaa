@@ -47,7 +47,29 @@ class RockPaperSissors {
 
 
 
-      
+
+
+
+
+
+
+
+
+
+
+
+      else 
+      {
+        Console.WriteLine("Unable to determine Player choice.\n");
+      }
+
+      // Compare the two choices and determine a winner.
+      if (playerChoice == "rock" && cpuChoice == "paper")
+      {
+        // Console.WriteLine($"You chose {playerChoice} and the CPU chose {cpuChoice}.\n);
+        // Console.WriteLine("You win!\n); 
+        playerScore++;
+      }
     }
 
     while (playerScore < 5 && cpuScore <)
