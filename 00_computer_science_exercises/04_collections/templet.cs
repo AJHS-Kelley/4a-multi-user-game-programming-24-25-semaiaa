@@ -37,7 +37,7 @@ class Collections {
   // Length is known as a PROPERTY of the array.
 
   // Accesing Elements in the array with the index
-  Console.WriteLine("The first element of the breakFastFoods array is: " + breakfastFoods[0];);
+  Console.WriteLine("The first element of the breakFastFoods array is: " + breakfastFoods[0]);
   // PRINT THE 2nd ELEMENT OF THE testScores array
   // PRINT THE 3rd ELEMENT OF THE GPA array
 
