@@ -1,4 +1,4 @@
-//Data Types and Operators, Semaia Encalade, v0.0
+// Collection Example, Semaia Encalade, v0.0
 using System; 
 using System.Linq; 
 using System.Collections;
