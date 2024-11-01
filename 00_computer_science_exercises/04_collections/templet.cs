@@ -1,6 +1,6 @@
 //Data Types and Operators, Semaia Encalade, v0.0
 using System; 
-using System.Ling; 
+using System.Linq; 
 using System.Collections;
 
 
@@ -76,7 +76,7 @@ Array.Sort(zooAnimals);
   Console.WriteLine("The MINIMUM value for intArr is: " + intArr.Min());
   Console.WriteLine("The MAXIMUM value for intArr is: " + intArr.Max());
   Console.WriteLine("The SUM value for intArr is: " + intArr.Sum()); 
-  
+
 
 
   } // DO NOT DELETE EVER, SHOULD BE 3 SPACES INDENTED FROM THE LEFT
