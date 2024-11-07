@@ -127,7 +127,7 @@ newList.RemoveRange(4, newList.Length - 1);
 
 // Does the ArrayList contain value. 
 // .Contains(value) returns true if the list has that value, false otherwise. 
-new playerInventory = new ArrayList()
+var playerInventory = new ArrayList()
     {
       "Sword", "Shield", "Bazooka", "1-Up Power-Up", "Death Notebook", "Potata"
     }; 
